@@ -11,3 +11,4 @@ for 12 / '6' output is 2 // operator /  performs division regardless of the type
 for '10' + (5 === 6) output is false // 5 is not equal to 6 which is false, and + perform concantenation
 for null == '' output is false // because null is not equeal to quotes
 3 ** (9 / 3) output is 27 // first we devide 9/3, then we perform exponentiation 3*3*3
+git push'false' == git push'true' output is true // double marks exclamation are used to cast a value in a boolean, so 0 == 1 is true
