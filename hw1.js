@@ -1,10 +1,10 @@
-number33 //'number' converted it to a string
-null + 3 output:3 //null is 0
-for 5 && qwerty output is qwerty //&& evaluates operands from left to right, returnin g immediately with the value of the first falsy operand it encounters
-for +'40' + +'2' + hillel output is 42hillel // When adding  a number to a string the interpreter converts number to a string and concatenates both together.
-for '10' - 5 === 6 output is false // the operands are of different types
-for true + false output is true // True is considered as 1. whereas false is zero. therefore In Boolean algebra True + False=1+0=1
-for '4px' - 3 output is NaN // string is not converted to a number, so string minus numebr results in NaN
+'number' + 3 + 3 output is number33 //'number' converted it to a string
+null + 3 output is 3 //null is 0
+5 && "qwerty" output is qwerty //&& selects one of their operands, in this case it returns querty as it uses the logic: if 5 is true, select querty, otherwise select 5, but non of them is true or false
++'40' + +'2' + hillel output is 42hillel // When adding  a number to a string the interpreter converts number to a string and concatenates both together.
+'10' - 5 === 6 output is false // the operands are of different types
+true + false output is true // True is considered as 1. whereas false is zero. therefore In Boolean algebra True + False=1+0=1
+'4px' - 3 output is NaN // the maths operation of 4px - 3 returns not a number as a result
 for '4' - 3 output is 1 // operator - only performs subtraction regardless of the type of operands
 for '6' + 3 ** 0 output is 61 // first the 3 is raised to the power of 0 which is 1, then '6' + 1 gives 61
 for 12 / '6' output is 2 // operator /  performs division regardless of the type of operands
